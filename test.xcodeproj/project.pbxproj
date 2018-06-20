@@ -12,6 +12,7 @@
 		4CC2306B20D8544A00FB4BEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC2306920D8544A00FB4BEC /* Main.storyboard */; };
 		4CC2306D20D8544E00FB4BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC2306C20D8544E00FB4BEC /* Assets.xcassets */; };
 		4CC2307020D8544E00FB4BEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC2306E20D8544E00FB4BEC /* LaunchScreen.storyboard */; };
+		4CC2307920D8546E00FB4BEC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC2307820D8546E00FB4BEC /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4CC2306C20D8544E00FB4BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CC2306F20D8544E00FB4BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CC2307120D8544E00FB4BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC2307820D8546E00FB4BEC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC2307920D8546E00FB4BEC /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				4CC2306420D8544A00FB4BEC /* test */,
 				4CC2306320D8544A00FB4BEC /* Products */,
+				4CC2307720D8546D00FB4BEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				4CC2307120D8544E00FB4BEC /* Info.plist */,
 			);
 			path = test;
+			sourceTree = "<group>";
+		};
+		4CC2307720D8546D00FB4BEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CC2307820D8546E00FB4BEC /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
